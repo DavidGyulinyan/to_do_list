@@ -1,5 +1,5 @@
 import { FaPlus } from 'react-icons/fa'
-import { useReducer, useRef } from 'react';
+import { useRef } from 'react';
 
 const AddItem = ({ handleSubmit, newItem, setNewItem }) => {
     const inputRef = useRef();
